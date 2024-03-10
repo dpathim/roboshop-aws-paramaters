@@ -2,6 +2,9 @@ parameters = {
   "docdb.dev.master_username" = { type = "String", value = "docdbadmin" }
   "docdb.dev.endpoint"        = { type = "String", value = "dev-docdb-cluster.cluster-c5aa7ipl3xws.us-east-1.docdb.amazonaws.com" }
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
+  "user.dev.REDIS_HOST" = { type = "String", value = "dev-redis-elasticache-cluster.lxgdjh.0001.use1.cache.amazonaws.com" }
+
+
 
   "rds.dev.database_name" = { type = "String", value = "dummy" }
   "rds.dev.master_username" = { type = "String", value = "devadmin" }
