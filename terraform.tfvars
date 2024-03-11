@@ -5,7 +5,8 @@ parameters = {
   "user.dev.REDIS_HOST" = { type = "String", value = "dev-redis-elasticache-cluster.lxgdjh.0001.use1.cache.amazonaws.com" }
   "cart.dev.REDIS_HOST" = { type = "String", value = "dev-redis-elasticache-cluster.lxgdjh.0001.use1.cache.amazonaws.com" }
   "cart.dev.CATALOGUE_HOST" = { type = "String", value = "catalogue-dev.vdevops562.online" }
-  "cart.dev.CATALOGUE_PORT" = { type = "String", value = "80" }
+  "shipping.dev.CART_ENDPOINT" = { type = "String", value = "cart-dev.vdevops562.online:8080" }
+  "shipping.dev.DB_HOST" = { type = "String", value = "dev-mysql-rds-cluster.cluster-c5aa7ipl3xws.us-east-1.rds.amazonaws.com" }
 
 
   "rds.dev.database_name" = { type = "String", value = "dummy" }
@@ -20,3 +21,5 @@ parameters = {
 
 
 
+Environment=CART_ENDPOINT=
+Environment=DB_HOST=mysql-dev.vdevops562.online
