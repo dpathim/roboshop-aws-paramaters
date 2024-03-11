@@ -21,5 +21,3 @@ parameters = {
 
 
 
-Environment=CART_ENDPOINT=
-Environment=DB_HOST=mysql-dev.vdevops562.online
