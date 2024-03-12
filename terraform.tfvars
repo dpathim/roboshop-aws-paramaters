@@ -10,6 +10,7 @@ parameters = {
   "payment.dev.CART_HOST" = { type = "String", value = "cart-dev.vdevops562.online" }
   "payment.dev.USER_HOST" = { type = "String", value = "user-dev.vdevops562.online" }
   "payment.dev.AMQP_HOST" = { type = "String", value = "rabbitmq-dev.vdevops562.online" }
+  "dispatch.dev.AMQP_HOST" = { type = "String", value = "rabbitmq-dev.vdevops562.online" }
 
   "payment.dev.USER_PORT" = { type = "String", value = "80" }
   "payment.dev.CART_PORT" = { type = "String", value = "80" }
