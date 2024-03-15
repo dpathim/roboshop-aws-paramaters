@@ -1,7 +1,7 @@
 parameters = {
   "docdb.dev.master_username" = { type = "String", value = "docdbadmin" }
   "docdb.dev.endpoint"        = { type = "String", value = "dev-docdb-cluster.cluster-c5aa7ipl3xws.us-east-1.docdb.amazonaws.com" }
-  "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
+  "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
 
   "user.dev.REDIS_HOST" = { type = "String", value = "dev-redis-elasticache-cluster.lxgdjh.0001.use1.cache.amazonaws.com" }
 
@@ -24,16 +24,24 @@ parameters = {
 
 
   "rabbitmq.dev.AMQP_USER" = { type = "String", value = "roboshop" }
-  "rabbitmq.dev.AMQP_PASS" = { type = "String", value = "roboshop123" }
+  "rabbitmq.dev.AMQP_PASS" = { type = "SecureString", value = "roboshop123" }
 
   "rds.dev.database_name" = { type = "String", value = "dummy" }
   "rds.dev.master_username" = { type = "String", value = "devadmin" }
-  "rds.dev.master_password" = { type = "String", value = "roboshop1234" }
+  "rds.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
+
+
+  # Elasticsearch
+
+  "elasticsearch.username" = { type = "String", value = "elastic" }
+  "elasticsearch.password" = { type = "SecureString", value = "u8oKvHCv*YJt*vQtmgnx" }
 }
 
 
 ## Usually passwords are not kept in the Repo,that should be entered manually.
 #password
+
+
 
 
 
